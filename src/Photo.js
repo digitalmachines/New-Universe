@@ -72,18 +72,17 @@ export default function Photo (){
 
     return (
         <div className="main-container">
-            <div className='photo-container'>
-                <img src={photo.url} alt={photo.title}></img>
-            </div>
             <div className="text-container">
-                <div><button onClick={getRandomDate}>Get New Random Image</button></div>
-                <div><button>Select Date: </button></div>
-                <div><button>Save To Favorites</button></div>
+                <div><button className="button" onClick={getRandomDate}>New Universe<div className="click">Click me!</div></button></div>
                 <div><h1>{photo.title}</h1></div>
                 <div><h2>Date: {photo.date}</h2></div>
                 <div><h2>Copyright: {photo.copyright}</h2></div>
                 <div className='caption'><h3>{photo.explanation}</h3></div>
                 <div><h3>Counter: {counter}</h3></div>
+            </div>
+
+            <div className='photo-container'>
+                <img src={photo.url} alt={photo.title}></img>
             </div>
         </div>
     )
