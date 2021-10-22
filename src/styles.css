@@ -1,0 +1,81 @@
+*{
+    border: 1% solid purple; 
+}
+
+html, body{
+    height: 100%; 
+    margin: 0%; 
+}
+
+#root{
+    height: 100%; 
+    margin: 0%; 
+}
+
+.main-window{
+    display: flex; 
+    flex-wrap: wrap; 
+}
+
+.header{
+    height: 30vh; 
+    width: 100%; 
+    border-bottom: 0.25px solid gray; 
+    background-image: url('images/nasa-orion-header.jpg'); 
+    display: flex; 
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.header h1{
+    color: red; 
+}
+
+.main-container{
+    display: flex; 
+    flex-wrap: wrap; 
+    margin: 0%; 
+    align-items: flex-start; 
+    justify-content: space-evenly;
+    }
+
+.photo-container{
+    width: 46%; 
+    margin: 1%; 
+}
+
+.photo-container img{
+    width: 100%; 
+    height: auto; 
+}
+
+.text-container{
+    font-family: Arvo; 
+    width: 46%; 
+    margin: 1%; 
+    padding: 1.5%; 
+    border: 1px solid black; 
+}
+
+.caption{
+    font-style: italic;
+    font-weight: normal;
+}
+
+.caption h3{
+    font-weight: normal;
+}
+
+.footer{
+    background-image: url('images/nasa-footer.png');
+    height: 25vh; 
+    width: 100%; 
+    border-top: 1px solid gray; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.footer h1{
+    color: black; 
+}
