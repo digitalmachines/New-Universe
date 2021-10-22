@@ -1,8 +1,5 @@
-# NASA Photo Of The Day 
+# New Universe
 
-This is a web application that consumes a REST API from NASA and displays a Photo of the Day. You can toggle to see the next picture as well. 
+A web app to see new universes. 
 
-Features: 
-
-- See the NASA photo of the day
-- Toggle to see the next picture
+Click "New Universe" to see a new one!
