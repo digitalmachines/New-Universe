@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/New-Universe/static/css/main.bb78ce5d.chunk.css",
-    "main.js": "/New-Universe/static/js/main.63154a3a.chunk.js",
-    "main.js.map": "/New-Universe/static/js/main.63154a3a.chunk.js.map",
+    "main.css": "/New-Universe/static/css/main.b3ce4155.chunk.css",
+    "main.js": "/New-Universe/static/js/main.39ab101a.chunk.js",
+    "main.js.map": "/New-Universe/static/js/main.39ab101a.chunk.js.map",
     "runtime~main.js": "/New-Universe/static/js/runtime~main.8c04d6f2.js",
     "runtime~main.js.map": "/New-Universe/static/js/runtime~main.8c04d6f2.js.map",
     "static/js/2.17622420.chunk.js": "/New-Universe/static/js/2.17622420.chunk.js",
     "static/js/2.17622420.chunk.js.map": "/New-Universe/static/js/2.17622420.chunk.js.map",
     "index.html": "/New-Universe/index.html",
-    "precache-manifest.435c8bad4118515c6f621239d9ffe339.js": "/New-Universe/precache-manifest.435c8bad4118515c6f621239d9ffe339.js",
+    "precache-manifest.e693b14bef496e82f4b42a20c04d7d89.js": "/New-Universe/precache-manifest.e693b14bef496e82f4b42a20c04d7d89.js",
     "service-worker.js": "/New-Universe/service-worker.js",
-    "static/css/main.bb78ce5d.chunk.css.map": "/New-Universe/static/css/main.bb78ce5d.chunk.css.map",
+    "static/css/main.b3ce4155.chunk.css.map": "/New-Universe/static/css/main.b3ce4155.chunk.css.map",
     "static/media/styles.css": "/New-Universe/static/media/nasa-orion-header.490cec76.jpg"
   }
 }
