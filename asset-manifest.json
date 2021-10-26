@@ -1,16 +1,23 @@
 {
   "files": {
-    "main.css": "/New-Universe/static/css/main.da5f7e45.chunk.css",
-    "main.js": "/New-Universe/static/js/main.d604af4a.chunk.js",
-    "main.js.map": "/New-Universe/static/js/main.d604af4a.chunk.js.map",
-    "runtime~main.js": "/New-Universe/static/js/runtime~main.8c04d6f2.js",
-    "runtime~main.js.map": "/New-Universe/static/js/runtime~main.8c04d6f2.js.map",
-    "static/js/2.17622420.chunk.js": "/New-Universe/static/js/2.17622420.chunk.js",
-    "static/js/2.17622420.chunk.js.map": "/New-Universe/static/js/2.17622420.chunk.js.map",
-    "index.html": "/New-Universe/index.html",
-    "precache-manifest.08ea2ea4d253fdef94328aacdebe017d.js": "/New-Universe/precache-manifest.08ea2ea4d253fdef94328aacdebe017d.js",
-    "service-worker.js": "/New-Universe/service-worker.js",
-    "static/css/main.da5f7e45.chunk.css.map": "/New-Universe/static/css/main.da5f7e45.chunk.css.map",
-    "static/media/styles.css": "/New-Universe/static/media/nasa-orion-header.490cec76.jpg"
-  }
+    "main.css": "/New-Universes/static/css/main.ccc9d1d2.chunk.css",
+    "main.js": "/New-Universes/static/js/main.90919f2d.chunk.js",
+    "main.js.map": "/New-Universes/static/js/main.90919f2d.chunk.js.map",
+    "runtime-main.js": "/New-Universes/static/js/runtime-main.66e70e74.js",
+    "runtime-main.js.map": "/New-Universes/static/js/runtime-main.66e70e74.js.map",
+    "static/js/2.bc156dba.chunk.js": "/New-Universes/static/js/2.bc156dba.chunk.js",
+    "static/js/2.bc156dba.chunk.js.map": "/New-Universes/static/js/2.bc156dba.chunk.js.map",
+    "index.html": "/New-Universes/index.html",
+    "precache-manifest.262e5e5be43250724dcc847c2f81619d.js": "/New-Universes/precache-manifest.262e5e5be43250724dcc847c2f81619d.js",
+    "service-worker.js": "/New-Universes/service-worker.js",
+    "static/css/main.ccc9d1d2.chunk.css.map": "/New-Universes/static/css/main.ccc9d1d2.chunk.css.map",
+    "static/js/2.bc156dba.chunk.js.LICENSE.txt": "/New-Universes/static/js/2.bc156dba.chunk.js.LICENSE.txt",
+    "static/media/styles.css": "/New-Universes/static/media/nasa-orion-header.490cec76.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.66e70e74.js",
+    "static/js/2.bc156dba.chunk.js",
+    "static/css/main.ccc9d1d2.chunk.css",
+    "static/js/main.90919f2d.chunk.js"
+  ]
 }
