@@ -33,7 +33,8 @@ export default function Photo (){
         {api_key: 'hq6OfwnUZFXxyaBdHUtJxGMV5CUIRo049M2SrdFd', date: todays_date}
         // , concept_tags: true, count: 1, thumbs: true} 
     })
-    const [photo, setPhoto] = useState({}); 
+    const [media, setMedia] = useState({}); 
+    const [image, setImage] = useState(false); 
     const [counter, setCounter] = useState(0); 
 
     // NASA API Guidelines
@@ -55,33 +56,58 @@ export default function Photo (){
     useEffect(()=>{
         axios.get(`https://api.nasa.gov/planetary/apod`, request)
         .then(response =>{
-            console.log(response.data)
+        
+            console.log("API Hits: ", counter);
+            console.log("Response from server: ", response)
+
+            if(response.data.media_type == "image"){
+                console.log("This is an image!")
+                setImage(true)                
+            }
+            else if(response.data.media_type == "video"){
+                console.log("This is a video!")
+                setImage(false)                
+            }
+            else{
+                console.log(response.data.media_type)
+            }
+
             if(Array.isArray(response.data)){
                 console.log(`This is an array`)
                 console.log(`This is an `, typeof(response.data), ` of length `, response.data.length)
-                setPhoto(response.data[0])
+                setMedia(response.data[0])
             }else{
                 console.log(`This is an `, typeof(response.data))
-                setPhoto(response.data)
+                setMedia(response.data)
             }
         })
         .catch(error =>{
-            console.log(error)
+            console.log("Error message: ", error)
         })
-        console.log("API Hits: ", counter);
+        
     }, [counter])
 
     return (
         <div className="main-container">
-            <div className='photo-container'>
-                <img src={photo.url} alt={photo.title}></img>
+            <div className="photo-container">
+                {image ? <img src={media.url} /> 
+                :   <iframe
+                width="753"
+                height="480"
+                src={media.url + "&autoplay=1&mute=1"}
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                title="Embedded youtube"
+              />
+                }
             </div>
             <div className="text-container">
                 <div className="button-container"><button className="button" onClick={getRandomDate}>New Universe<div className="click">Click me!</div></button></div>
-                <div className="photo-title"><h1>{photo.title}</h1></div>
-                <div className="photo-copyright"><h2>{photo.copyright}</h2></div>
-                <div className="photo-date"><h2>{photo.date}</h2></div>
-                <div className="photo-caption"><h3>{photo.explanation}</h3></div>
+                <div className="photo-title"><h1>{media.title}</h1></div>
+                <div className="photo-copyright"><h2>{media.copyright}</h2></div>
+                <div className="photo-date"><h2>{media.date}</h2></div>
+                <div className="photo-caption"><h3>{media.explanation}</h3></div>
             </div>
         </div>
     )
