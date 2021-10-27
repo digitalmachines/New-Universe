@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/New-Universes/static/css/main.851d8a03.chunk.css",
-    "main.js": "/New-Universes/static/js/main.4c9f2b50.chunk.js",
-    "main.js.map": "/New-Universes/static/js/main.4c9f2b50.chunk.js.map",
+    "main.css": "/New-Universes/static/css/main.7bafd679.chunk.css",
+    "main.js": "/New-Universes/static/js/main.9c7dafc9.chunk.js",
+    "main.js.map": "/New-Universes/static/js/main.9c7dafc9.chunk.js.map",
     "runtime-main.js": "/New-Universes/static/js/runtime-main.66e70e74.js",
     "runtime-main.js.map": "/New-Universes/static/js/runtime-main.66e70e74.js.map",
-    "static/js/2.bc156dba.chunk.js": "/New-Universes/static/js/2.bc156dba.chunk.js",
-    "static/js/2.bc156dba.chunk.js.map": "/New-Universes/static/js/2.bc156dba.chunk.js.map",
+    "static/js/2.2183c7ab.chunk.js": "/New-Universes/static/js/2.2183c7ab.chunk.js",
+    "static/js/2.2183c7ab.chunk.js.map": "/New-Universes/static/js/2.2183c7ab.chunk.js.map",
     "index.html": "/New-Universes/index.html",
-    "precache-manifest.2bf6e48dec7a92cb749e967e9db8f469.js": "/New-Universes/precache-manifest.2bf6e48dec7a92cb749e967e9db8f469.js",
+    "precache-manifest.aa116e5cbc6e256a9a3594f48cc73be6.js": "/New-Universes/precache-manifest.aa116e5cbc6e256a9a3594f48cc73be6.js",
     "service-worker.js": "/New-Universes/service-worker.js",
-    "static/css/main.851d8a03.chunk.css.map": "/New-Universes/static/css/main.851d8a03.chunk.css.map",
-    "static/js/2.bc156dba.chunk.js.LICENSE.txt": "/New-Universes/static/js/2.bc156dba.chunk.js.LICENSE.txt",
+    "static/css/main.7bafd679.chunk.css.map": "/New-Universes/static/css/main.7bafd679.chunk.css.map",
+    "static/js/2.2183c7ab.chunk.js.LICENSE.txt": "/New-Universes/static/js/2.2183c7ab.chunk.js.LICENSE.txt",
     "static/media/styles.css": "/New-Universes/static/media/nasa-orion-header.490cec76.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.66e70e74.js",
-    "static/js/2.bc156dba.chunk.js",
-    "static/css/main.851d8a03.chunk.css",
-    "static/js/main.4c9f2b50.chunk.js"
+    "static/js/2.2183c7ab.chunk.js",
+    "static/css/main.7bafd679.chunk.css",
+    "static/js/main.9c7dafc9.chunk.js"
   ]
 }
