@@ -1,0 +1,13 @@
+NASA API Key:
+-----------------------------------
+
+Your API key for digitalmachines@protonmail.com is:
+
+hq6OfwnUZFXxyaBdHUtJxGMV5CUIRo049M2SrdFd
+You can start using this key to make web service requests. Simply pass your key in the URL when making a web request. Here's an example:
+
+https://api.nasa.gov/planetary/apod?api_key=hq6OfwnUZFXxyaBdHUtJxGMV5CUIRo049M2SrdFd
+For additional support, please contact us. When contacting us, please tell us what API you're accessing and provide the following account details so we can quickly find you:
+
+Account Email: digitalmachines@protonmail.com
+Account ID: d6771edd-6396-43c7-a6b4-2a586b715d07
