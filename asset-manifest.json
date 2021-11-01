@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/New-Universes/static/css/main.7bafd679.chunk.css",
-    "main.js": "/New-Universes/static/js/main.9c7dafc9.chunk.js",
-    "main.js.map": "/New-Universes/static/js/main.9c7dafc9.chunk.js.map",
+    "main.css": "/New-Universes/static/css/main.e2f036d7.chunk.css",
+    "main.js": "/New-Universes/static/js/main.44bd9738.chunk.js",
+    "main.js.map": "/New-Universes/static/js/main.44bd9738.chunk.js.map",
     "runtime-main.js": "/New-Universes/static/js/runtime-main.66e70e74.js",
     "runtime-main.js.map": "/New-Universes/static/js/runtime-main.66e70e74.js.map",
     "static/js/2.2183c7ab.chunk.js": "/New-Universes/static/js/2.2183c7ab.chunk.js",
     "static/js/2.2183c7ab.chunk.js.map": "/New-Universes/static/js/2.2183c7ab.chunk.js.map",
     "index.html": "/New-Universes/index.html",
-    "precache-manifest.aa116e5cbc6e256a9a3594f48cc73be6.js": "/New-Universes/precache-manifest.aa116e5cbc6e256a9a3594f48cc73be6.js",
+    "precache-manifest.16ecf271678b1923470e730e357e18e9.js": "/New-Universes/precache-manifest.16ecf271678b1923470e730e357e18e9.js",
     "service-worker.js": "/New-Universes/service-worker.js",
-    "static/css/main.7bafd679.chunk.css.map": "/New-Universes/static/css/main.7bafd679.chunk.css.map",
+    "static/css/main.e2f036d7.chunk.css.map": "/New-Universes/static/css/main.e2f036d7.chunk.css.map",
     "static/js/2.2183c7ab.chunk.js.LICENSE.txt": "/New-Universes/static/js/2.2183c7ab.chunk.js.LICENSE.txt",
     "static/media/styles.css": "/New-Universes/static/media/nasa-orion-header.490cec76.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.66e70e74.js",
     "static/js/2.2183c7ab.chunk.js",
-    "static/css/main.7bafd679.chunk.css",
-    "static/js/main.9c7dafc9.chunk.js"
+    "static/css/main.e2f036d7.chunk.css",
+    "static/js/main.44bd9738.chunk.js"
   ]
 }
