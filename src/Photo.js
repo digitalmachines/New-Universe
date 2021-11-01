@@ -92,8 +92,8 @@ export default function Photo (){
             <div className="photo-container">
                 {image ? <img src={media.url} /> 
                 :   <iframe
-                width="753"
-                height="480"
+                width="100%"
+                height="50%"
                 src={media.url + "&autoplay=1&mute=1"}
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
