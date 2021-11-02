@@ -99,8 +99,8 @@
 }
 
 .button-container{
-    margin: 2%; 
-
+    width: 100%; 
+    margin: 0%; 
 }
 
 .button{
@@ -180,7 +180,7 @@
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        justify-content: center;
+        align-items: center;
         align-content: start;
         width: 100%; 
         height: 100%; 
@@ -203,7 +203,25 @@
         padding: 0%;        
     }
     .main-container .text-container{
-        width: 94%; 
+        height: 100%; 
+        width: 99%; 
+        padding: 0%; 
+        font-family: Arvo; 
+        display: flex; 
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .main-container .text-container .button-container{
+        width: 100%; 
+    }
+    .main-container .text-container .button-container button{
+        width: 100%; 
+        padding: 2% 0% 2% 0%; 
+    }
+
+    .main-container .text-container .photo-caption{
         padding: 0% 5% 0% 5%; 
     }
 }
