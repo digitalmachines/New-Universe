@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/New-Universes/precache-manifest.3272e6b377444bb48e19b2395b8accc8.js"
+  "/New-Universes/precache-manifest.e7e5f6e4250bd19891a2e421dc8ace3a.js"
 );
 
 self.addEventListener('message', (event) => {
