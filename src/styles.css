@@ -32,7 +32,7 @@
     color: white; 
     opacity: 0.4; 
     /* border: 1px solid red;  */
-    font-size: 10vw;
+    font-size: 90px;
 }
 
 
@@ -51,7 +51,7 @@
     }
 
 .photo-container{
-    background-color: darkblue;
+    background-color: black;
     display: flex; 
     justify-content: center;
     align-items: center;
@@ -76,11 +76,10 @@
 }
 
 .text-container{
-    width: 35%; 
+    width: 37%; 
     height: 83%; 
     margin: 0%; 
-    padding: 0.5%;
-    padding-right: 1%;
+    padding: 0%; 
     font-family: Arvo; 
 }
 
@@ -92,14 +91,19 @@
 }
 .photo-copyright{
     width: 100%; 
+    margin: 0%; 
     text-align: center;
 }
 .photo-date{
     width: 100%; 
+    margin: 0%; 
     text-align: center;
 }
 .photo-caption{
-    width: 100%; 
+    width: 90%; 
+    margin: 0%; 
+    padding-left: 5%; 
+    padding-right: 5%; 
     text-align: left;
 }
 
@@ -109,24 +113,26 @@
     padding: 0%; 
 }
 
-.button{
-    width: 100%;
-    padding-top: 1%; 
-    padding-bottom: 1%; 
-    background-color: blue;
-    color: white; 
-    font-size: 3em;  
+.button-container .button {
+    display: inline-block;
+    width: 100%; 
+    padding: 0.35em 1.2em;
+    border: 0.1em solid darkblue;
+    margin: 0 0.3em 0.3em 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+    font-size: 3em; 
+    color: darkblue;
     text-align: center;
-    transition: 0.5s; 
-}
+    transition: all 0.2s;
+    }
 
-.button:hover {
-    background-color: red;
-}
-
-.button .click{
-    font-size: 0.25em;
-}
+.button-container .button:hover{
+    color:white;
+    background-color:darkblue;
+    }
 
 .caption{
     font-style: italic;
