@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bc74b8eed87a18e33006f600161cfb2e",
+    "revision": "607da30db78af8fc8f06c2182fbade5a",
     "url": "/New-Universes/index.html"
   },
   {
-    "revision": "f9564f2c78ab74473bc6",
-    "url": "/New-Universes/static/css/main.bfaf1311.chunk.css"
+    "revision": "9a46ac317f24667f6c22",
+    "url": "/New-Universes/static/css/main.308fb31a.chunk.css"
   },
   {
     "revision": "385c59de732f9d7475b5",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/New-Universes/static/js/2.2183c7ab.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f9564f2c78ab74473bc6",
+    "revision": "9a46ac317f24667f6c22",
     "url": "/New-Universes/static/js/main.44bd9738.chunk.js"
   },
   {
