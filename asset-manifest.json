@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/New-Universes/static/css/main.46ba375f.chunk.css",
+    "main.css": "/New-Universes/static/css/main.d67f773f.chunk.css",
     "main.js": "/New-Universes/static/js/main.44bd9738.chunk.js",
     "main.js.map": "/New-Universes/static/js/main.44bd9738.chunk.js.map",
     "runtime-main.js": "/New-Universes/static/js/runtime-main.66e70e74.js",
@@ -8,16 +8,16 @@
     "static/js/2.2183c7ab.chunk.js": "/New-Universes/static/js/2.2183c7ab.chunk.js",
     "static/js/2.2183c7ab.chunk.js.map": "/New-Universes/static/js/2.2183c7ab.chunk.js.map",
     "index.html": "/New-Universes/index.html",
-    "precache-manifest.e7e5f6e4250bd19891a2e421dc8ace3a.js": "/New-Universes/precache-manifest.e7e5f6e4250bd19891a2e421dc8ace3a.js",
+    "precache-manifest.e00c07b0d7fdae30927efa395f78a02d.js": "/New-Universes/precache-manifest.e00c07b0d7fdae30927efa395f78a02d.js",
     "service-worker.js": "/New-Universes/service-worker.js",
-    "static/css/main.46ba375f.chunk.css.map": "/New-Universes/static/css/main.46ba375f.chunk.css.map",
+    "static/css/main.d67f773f.chunk.css.map": "/New-Universes/static/css/main.d67f773f.chunk.css.map",
     "static/js/2.2183c7ab.chunk.js.LICENSE.txt": "/New-Universes/static/js/2.2183c7ab.chunk.js.LICENSE.txt",
     "static/media/styles.css": "/New-Universes/static/media/nasa-orion-header.490cec76.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.66e70e74.js",
     "static/js/2.2183c7ab.chunk.js",
-    "static/css/main.46ba375f.chunk.css",
+    "static/css/main.d67f773f.chunk.css",
     "static/js/main.44bd9738.chunk.js"
   ]
 }
